@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+         AccessibleSlider(currentValue: 40.0, maxValue: 120.0, unit: "s", snapInterval: 5, sliderLabel: "Duration")
     }
 }
 
